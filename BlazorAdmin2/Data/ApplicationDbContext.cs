@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorAdmin2.Data
+namespace BlazorAdmin.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

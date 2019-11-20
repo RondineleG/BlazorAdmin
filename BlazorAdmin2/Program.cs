@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace BlazorAdmin2
+namespace BlazorAdmin
 {
     public class Program
     {

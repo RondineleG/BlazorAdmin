@@ -1,5 +1,5 @@
 using BlazorAdmin2.Areas.Identity;
-using BlazorAdmin2.Data;
+using BlazorAdmin.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BlazorAdmin2
+namespace BlazorAdmin
 {
     public class Startup
     {
@@ -41,7 +41,6 @@ namespace BlazorAdmin2
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
             }
             else
             {
